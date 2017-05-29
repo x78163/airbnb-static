@@ -42,10 +42,10 @@
 .navbar-wagon-link {
   color: #616668;
   font-size: 14px;
-}
-.navbar-wagon-link:hover {
+  &:hover {
   color: #da552f;
   text-decoration: none;
+}
 }
 
 /* Navbar right button */
@@ -58,11 +58,11 @@
   color: white;
   font-size: 14px;
   border: 2px solid #D23333;
-}
-.navbar-wagon-button:hover {
+  &:hover {
   color: white;
   background: #D23333;
   border-color: #ac2626;
+}
 }
 
 /* Navbar search form */
@@ -112,11 +112,12 @@
   font-size: 15px !important;
   line-height: 22px !important;
   padding: 10px 20px;
-}
-.navbar-wagon-dropdown-menu li > a:hover {
+  &:hover {
   background: transparent !important;
   color: black !important;
 }
+}
+
 .navbar-wagon-dropdown-menu:before {
   content: ' ';
   height: 10px;
