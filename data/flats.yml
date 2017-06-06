@@ -1,0 +1,63 @@
+# data/flats.yml
+seb:
+  owner_name: Sebastien Saunier
+  picture: images/card-paris.jpg
+  owner_picture: images/seb.jpg
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+  beer: guinness
+  Accommodates:  2
+  Bathrooms:   1
+  Bed_type:    Real Bed
+  Bedrooms:    1
+  Beds:    1
+  Property_type:   Apartment
+  Room-type:    Entire home/apt
+  kitchen: true
+  tv: true
+  welcomeD: true
+
+
+jenn:
+  owner_name: Jenn
+  picture: images/card-london.jpeg
+  owner_picture: images/Jenn.jpeg
+  name: Jenn's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+  beer: corona
+  description: A horrible place because it just is.
+  Accommodates:  2
+  Bathrooms:   1
+  Bed_type:    Real Bed
+  Bedrooms:    1
+  Beds:    1
+  Property_type:   Apartment
+  Room-type:    Entire home/apt
+  kitchen: true
+  tv: false
+  welcomeD: true
+
+joe:
+  owner_name: Joe
+  picture: images/card-brussels.jpeg
+  owner_picture: images/Joe.jpeg
+  name: Joe's home
+  summary: Fancy place
+  city: Daleville, AL
+  wifi: true
+  beer: Miller high life
+  Accommodates: 2
+  Bathrooms:   1
+  Bed_type:    Real Bed
+  Bedrooms:    1
+  Beds:    1
+  Property_type:   Apartment
+  Room-type:    Entire home/apt
+  kitchen: true
+  tv: false
+  welcomeD: true
+  description: In a static website, it's often convenient to store some data in a structured text file (like a YAML file), and then use this data in our templates. Let's do this for flats.

@@ -1,0 +1,66 @@
+<!-- source/flats/show.html.erb -->
+
+<!-- Read from data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<!-- Inject flat data in template -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <%= image_tag flat.owner_picture, class: "avatar-large img-circle" %>
+      <p><%= flat.owner_name %></p>
+
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <h1><%= flat.summary %></h1>
+      <p><%= flat.city %></p>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-6"><h1>About this flat</h1>
+      <p><%= flat.description %></p></div>
+      <div class="col-xs-12 col-md-6">FORM STUFF</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <p>The Space</p>
+        <p>Accomodates: <%= flat.Accommodates%></p>
+        <p>Bathrooms: <%= flat.Bathrooms%></p>
+        <p>Bed type: <%= flat.Bed_type%></p>
+        <p>Bedrooms: <%= flat.Bedrooms%></p>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <p>Beds: <%= flat.Beds%></p>
+        <p>Property Type: <%= flat.Property_type%></p>
+        <p>Room type: <%= flat.Room_type%></p>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <p>Amenities</p>
+        <p>
+          <%  if flat.wifi == true %>
+          <%=   "Wifi present" %>
+          <%  end %>
+        </p>
+        <p>
+          <%  if flat.kitchen == true %>
+          <%=   "Kitchen present" %>
+          <%  end %>
+        </p>
+        <p>
+          <%  if flat.tv == true %>
+          <%=   "TV present" %>
+          <%  end %>
+        </p>
+        <p>
+          <%  if flat.welcomeD == true %>
+          <%=   "Welcome Drink" %>
+          <%  end %>
+        </p>
+        <p>Room type: <%= flat.Room_type%></p>
+      </div>
+    </div>
+  </div>
